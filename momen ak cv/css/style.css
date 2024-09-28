@@ -1,0 +1,41 @@
+
+body{background-color: white;}
+nav ul{padding: 10px 30px;}
+nav .nav-link{font-size:20px;margin-left: 20px;font-weight: bold; color:black ;}
+ nav .logo{font-weight: bold;   color: rgb(90, 189, 135); font-size:30px; margin-left: 25px; }
+ .nav-link:hover{  color: rgb(90, 189, 133);  }
+ .spec{color: rgb(90, 189, 135);}
+ i{color: rgb(90, 189, 135);}
+ /**************************header***********************/
+ .container{  margin-top: 60px;}
+ .pic{   width: 100%; margin-top: -25px; border-radius: 50%; box-shadow: 15px 10px 25px    rgba(90, 189, 135,0.8); }
+header{padding: 110px 0;position: relative;}
+header .line{border-bottom:2px solid   rgb(90, 189, 135); }  
+header .spec{ font-weight: bold;}
+.margin{margin-top: 50px;}
+
+ /**************************About***********************/
+ .About{padding: 110px 0;}
+.About h3{  font-weight: bold;font-size: 40px;    color: rgb(90, 189, 135); text-align: center;}
+.About p{font-size: 20px;}0
+ /**************************Skills**************************/
+ .skills{padding: 100px 0;}
+ .progress-bar{padding-top: 150px;}
+ .Skills-container{display: grid;  grid-template-columns: 1fr 1fr; gap: 4%;align-items: center; }
+ .progess .info{  display: flex;justify-content:space-between ; margin-bottom: 1rem; }
+ .oute-row{  height: 100%;   height: .6rem;background-color:rgba(90, 189, 135,0.3) ; margin-bottom: 1rem; }
+ .inner-row{ background: rgb(90, 189, 135);    width: 95%;  height: 100%; }
+ .progess:nth-child(2) .oute-row .inner-row{   width: 90%; } 
+ .progess:nth-child(3) .oute-row .inner-row{  width: 40%;}
+ .progess:nth-child(4) .oute-row .inner-row{ width: 80%;}
+ .progess:nth-child(5) .oute-row .inner-row{ width: 95%;}
+ .progess:nth-child(6) .oute-row .inner-row{ width: 60%;}
+ .skills-right img{width: 450px;}
+ .skills h3{text-align: center; font-size: 50px; color: rgb(90, 189, 135);}
+ /**************************footer**************************/
+footer{ background-color: rgb(90, 189, 135); color: white; text-align: center; padding-bottom: 10px;}
+.icons {  width: 25%; margin: auto; display: flex; justify-content: space-around; padding-top: 30px; padding-bottom: 15px;}
+footer i {color: white; font-size: 30px; } 
+footer h3 {
+    padding-top: 20px;
+}
